@@ -1,13 +1,10 @@
-import "./App.css";
-import Logo from "./react_logo";
+import React from "react";
+import PageLayout from "./layout/pageLayout";
 
-const App = () => {
-  return (
-    <div>
-      Hello world!
-      <Logo />
-    </div>
-  );
-};
+document.body.style.margin = 0;
+
+const App = () => (
+  <PageLayout/>
+);
 
 export default App;
