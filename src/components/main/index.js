@@ -1,5 +1,6 @@
 import React, { useEffect} from "react";
 import PageLayout from "../../layout/pageLayout";
+import {Title} from "./styled.js"
 
 const MainPage = () => {
   useEffect(() => {
@@ -8,7 +9,7 @@ const MainPage = () => {
 
   return (
     <PageLayout>
-<div>Hello World.</div>
+<Title>Hello World.</Title>
     </PageLayout>
   );
 };

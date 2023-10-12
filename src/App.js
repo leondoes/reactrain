@@ -1,7 +1,7 @@
 import "./styles.css";
 import React from "react";
 import package_json from "../package.json";
-import MainPage from "../src/components/main";
+import MainPage from "./components/Main";
 
 document.body.style.margin = 0;
 document.title = "React Rain by leondoes.";
