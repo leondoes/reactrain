@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { themeColors } from "../../common/theme";
 
 export const PageContainer = styled.div`
-color: blue;
-  background-color: white;
+  background-color: ${themeColors.dark};
+  color: ${themeColors.font};
   height: 100vh;
   
 
