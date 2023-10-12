@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/reactrain/static/css/main.ae111aee.css",
-    "main.js": "/reactrain/static/js/main.99666429.js",
+    "main.js": "/reactrain/static/js/main.4ea69d64.js",
     "index.html": "/reactrain/index.html",
-    "main.99666429.js.map": "/reactrain/static/js/main.99666429.js.map"
+    "main.4ea69d64.js.map": "/reactrain/static/js/main.4ea69d64.js.map"
   },
   "entrypoints": [
     "static/css/main.ae111aee.css",
-    "static/js/main.99666429.js"
+    "static/js/main.4ea69d64.js"
   ]
 }
