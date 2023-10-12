@@ -8,7 +8,7 @@ const MainPage = () => {
 
   return (
     <PageLayout>
-<div>Hello World</div>
+<div>Hello World.</div>
     </PageLayout>
   );
 };
