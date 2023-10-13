@@ -1,7 +1,7 @@
 import "./styles.css";
 import React from "react";
 import package_json from "../package.json";
-import MainPage from "./components/Main";
+import ReactRain from "./components/ReactRain";
 
 document.body.style.margin = 0;
 document.title = "React Rain by leondoes.";
@@ -10,7 +10,7 @@ document.title = "React Rain by leondoes.";
 window.__leonVersion = package_json.version;
 
 const App = () => (
-  <MainPage/>
+  <ReactRain/>
 );
 
 export default App;

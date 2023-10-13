@@ -2,7 +2,7 @@ import React, { useEffect} from "react";
 import PageLayout from "../../layout/pageLayout";
 import {Title} from "./styled.js"
 
-const MainPage = () => {
+const ReactRain = () => {
   useEffect(() => {
     document.title = "React Rain";
   }, []);
@@ -14,4 +14,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default ReactRain;
