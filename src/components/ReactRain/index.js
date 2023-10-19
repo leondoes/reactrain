@@ -37,11 +37,13 @@ const ReactRain = () => {
   }, []);
 
   const handleCitySearch = async (city) => {
+    // Reset cityNotFound state when a new city search is initiated
+    setCityNotFound(false);
+  
     try {
       const geoResponse = await fetch(`${geoApiUrl}?q=${city}&limit=5&appid=${apiKey}&type=city`);
       if (geoResponse.ok) {
         const geoData = await geoResponse.json();
-        console.log(geoData)
         if (geoData.length > 0) {
           setMatchingCities(geoData);
         } else {
