@@ -1,22 +1,12 @@
 {
   "files": {
     "main.css": "/reactrain/static/css/main.ae111aee.css",
-    "main.js": "/reactrain/static/js/main.d150abb5.js",
-    "static/media/01n.png": "/reactrain/static/media/01n.cfa37b178f3890f6d652.png",
-    "static/media/11.png": "/reactrain/static/media/11.58b496271a1c11956ab1.png",
-    "static/media/10.png": "/reactrain/static/media/10.434482b4fd8d40c5a18c.png",
-    "static/media/13.png": "/reactrain/static/media/13.fed738d94f24e6da05f6.png",
-    "static/media/09.png": "/reactrain/static/media/09.73b71cb24a3a268c8130.png",
-    "static/media/02d.png": "/reactrain/static/media/02d.a86573fd68225114f60f.png",
-    "static/media/04.png": "/reactrain/static/media/04.a0e3240c87d11d4e63ad.png",
-    "static/media/02n.png": "/reactrain/static/media/02n.580b9d734341ebcfae99.png",
-    "static/media/01d.png": "/reactrain/static/media/01d.d884c04b15426376f660.png",
-    "static/media/03.png": "/reactrain/static/media/03.230ab9e0cb1061ec7597.png",
+    "main.js": "/reactrain/static/js/main.efe2258d.js",
     "index.html": "/reactrain/index.html",
-    "main.d150abb5.js.map": "/reactrain/static/js/main.d150abb5.js.map"
+    "main.efe2258d.js.map": "/reactrain/static/js/main.efe2258d.js.map"
   },
   "entrypoints": [
     "static/css/main.ae111aee.css",
-    "static/js/main.d150abb5.js"
+    "static/js/main.efe2258d.js"
   ]
 }
