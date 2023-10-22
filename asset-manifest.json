@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reactrain/static/css/main.ae111aee.css",
-    "main.js": "/reactrain/static/js/main.0ee1aa8c.js",
+    "main.js": "/reactrain/static/js/main.dc530730.js",
     "index.html": "/reactrain/index.html",
     "static/media/SearchIcon.svg": "/reactrain/static/media/SearchIcon.0cb20a9b574f71aa8c8a2a165d40446e.svg",
-    "main.0ee1aa8c.js.map": "/reactrain/static/js/main.0ee1aa8c.js.map"
+    "main.dc530730.js.map": "/reactrain/static/js/main.dc530730.js.map"
   },
   "entrypoints": [
     "static/css/main.ae111aee.css",
-    "static/js/main.0ee1aa8c.js"
+    "static/js/main.dc530730.js"
   ]
 }
