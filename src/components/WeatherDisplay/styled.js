@@ -5,15 +5,19 @@ export const PageContainer = styled.div `
 display: flex;
 flex-direction: row;
 padding: 5px;
-margin: 5px;
+margin-right: 5px;
 `;
 
 export const InsideContainer = styled.div `
 padding: 20px;
-margin: 10px;
+margin-right: 20px;
 background-color: #212422;
 border-radius: 10px;
 `;
+
+export const ForecastContainer = styled.div`
+padding-bottom: 10px;
+`
 
 export const Icon = styled.img `
 width: 80px;
@@ -22,7 +26,8 @@ height: 80px;
 
 export const Copy = styled.div`
 font-family: ${themeFonts.bodyFont};
-${fontStyles.Copy}
+${fontStyles.Copy};
+font-size: 16px;
 padding: 10px;
 `;
 
