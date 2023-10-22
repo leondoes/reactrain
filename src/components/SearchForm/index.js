@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { TextInput, SearchButton, SearchContainer } from './styled';
+import img from '../../Assets/SearchIcon.svg';
 
 const SearchForm = ({ onSearch }) => {
   const [city, setCity] = useState('');
@@ -20,16 +22,18 @@ const SearchForm = ({ onSearch }) => {
   };
 
   return (
-    <div>
-      <input
+    <SearchContainer>
+      <TextInput
         type="text"
         placeholder="Enter city"
         value={city}
         onChange={handleCityChange}
         onKeyPress={handleKeyPress}
       />
-      <button onClick={handleSearchClick}>Search</button>
-    </div>
+      <SearchButton onClick={handleSearchClick}>
+        <img src={img} alt="Search" />
+      </SearchButton>
+    </SearchContainer>
   );
 };
 

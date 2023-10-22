@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SearchForm from "../SearchForm";
 import WeatherDisplay from "../WeatherDisplay";
-import { Copy, Title } from "./styled";
+import { Title } from "./styled";
 import PageLayout from "../../layout/pageLayout";
 import { fetchCurrentWeather, fetchWeatherForecast } from "../../common/helpers/weatherAPI"; // Update the import path
 
@@ -25,7 +25,7 @@ const ReactRain = () => {
   return (
     <PageLayout>
       <Title>ReactRain</Title>
-      <Copy>
+      <div>
         <SearchForm onSearch={handleSearch} />
         {weatherData && forecastData && (
           <WeatherDisplay
@@ -33,7 +33,7 @@ const ReactRain = () => {
             forecastData={forecastData}
           />
         )}
-      </Copy>
+      </div>
     </PageLayout>
   );
 };
