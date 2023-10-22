@@ -4,17 +4,19 @@ import { themeColors } from "../../common/theme";
 export const PageContainer = styled.div`
   background-color: ${themeColors.dark};
   color: ${themeColors.font};
+  height: 100%;
+  width: 100%;
   height: 100vh;
-  
+  width: 100vw;
 
   //Doesn't move content on webpage when there's no scroll bar
-  padding-left: calc(100vw - 100%);
+
 
 
   display: grid;
   grid-template-columns:
     1fr
-    min(150ch, 100%)
+    min(140ch, 100%)
     1fr;
   > * {
     grid-column: 2;
@@ -43,20 +45,5 @@ export const PageContainer = styled.div`
 
 export const ContentContainer = styled.div`
 display: flex;
-margin: 30px 100px 30px 100px;
-
-
-  @keyframes slideInFromBottom {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-animation: slideInFromBottom 0.8s ease-in-out;
-
+flex-direction: column;
 `;

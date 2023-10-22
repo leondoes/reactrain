@@ -28,26 +28,11 @@ export const mediaQuery = {
 };
 
 //Website Text Theme
-
 export const fontStyles = {
   Title: `font-weight: 900;
   color: ${themeColors.font};
   letter-spacing: -2px;
   font-size: 70px;
-
-  @keyframes slideFromCenter {
-    0% {
-      transform: scaleX(0);
-      opacity: 0;
-    }
-    100% {
-      transform: scaleX(1);
-      opacity: 1;
-    }
-  }
-
-
-  animation: slideFromCenter 0.9s ease-in-out;
 
 
   ${mediaQuery.down.tablet} {
@@ -61,20 +46,6 @@ export const fontStyles = {
   letter-spacing: -2px;
   font-size: 70px; font-variant: small-caps;
   width: fit-content;
-
-  @keyframes slideFromCenter {
-    0% {
-      transform: scaleX(0);
-      opacity: 0;
-    }
-    100% {
-      transform: scaleX(1);
-      opacity: 1;
-    }
-  }
-
-
-  animation: slideFromCenter 0.9s ease-in-out;
 
 
   ${mediaQuery.down.tablet} {
