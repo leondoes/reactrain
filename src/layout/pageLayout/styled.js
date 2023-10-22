@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { themeColors } from "../../common/theme";
+import { themeColors, themeFonts } from "../../common/theme";
 
 export const PageContainer = styled.div`
   background-color: ${themeColors.dark};
@@ -25,7 +25,6 @@ export const PageContainer = styled.div`
   &:before {
     content: "";
     position:sticky;
-    background-color: blue;
     grid-row: 1;
     grid-column: 1;
     top: 0;
@@ -34,7 +33,6 @@ export const PageContainer = styled.div`
   &:after {
     content: "";
     position: sticky;
-    background-color: red;
     grid-row: 1;
     grid-column: 3;
     z-index: 2;
@@ -46,4 +44,16 @@ export const PageContainer = styled.div`
 export const ContentContainer = styled.div`
 display: flex;
 flex-direction: column;
+padding: 30px;
+border: 1px;
+border-color: ${themeColors.font};
+border-style: solid;
+border-radius: 10px;
+height: 90%;
 `;
+
+export const Footer = styled.div`
+font-family: ${themeFonts.brandFont};
+height: 10px;
+position: relative;
+`

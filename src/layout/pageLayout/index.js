@@ -1,9 +1,9 @@
-import { PageContainer, ContentContainer } from "./styled";
+import { PageContainer, ContentContainer,Footer } from "./styled";
 
 const PageLayout = ({ children, ...props }) => {
   return (
     <PageContainer {...props}>
-      <ContentContainer>{children}</ContentContainer>
+      <ContentContainer>{children}</ContentContainer><Footer>API data provided by weatherAPI</Footer>
     </PageContainer>
   );
 };

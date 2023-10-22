@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageContainer, InsideContainer, Icon, Copy,Title } from './styled';
+import { PageContainer, InsideContainer,ForecastContainer, Icon, Copy,Title } from './styled';
 
 const WeatherDisplay = ({ weatherData, forecastData }) => {
   const formatDayOfWeek = (dateString) => {
@@ -29,7 +29,7 @@ const WeatherDisplay = ({ weatherData, forecastData }) => {
       
       <InsideContainer>
         {forecastData.forecast.forecastday.slice(1).map((day, index) => (
-          <div key={index}>
+          <ForecastContainer key={index}>
             <Title>{formatDayOfWeek(day.date)}</Title>
             <Icon src={`http:${day.day.condition.icon}`} alt="Weather Icon" />
             <Copy>Min/Max: {roundToWhole(day.day.mintemp_c)}°C / {roundToWhole(day.day.maxtemp_c)}°C</Copy>
@@ -37,7 +37,7 @@ const WeatherDisplay = ({ weatherData, forecastData }) => {
             <Copy>Humidity: {day.day.avghumidity}%</Copy>
             <Copy>Precipitation: {day.day.totalprecip_mm} mm</Copy>
             <Copy>Wind: {day.day.maxwind_kph} km/h</Copy>
-          </div>
+          </ForecastContainer>
         ))}
       </InsideContainer>
     </PageContainer>
