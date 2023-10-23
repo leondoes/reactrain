@@ -5,7 +5,7 @@ import { fontStyles, themeFonts } from "../../common/theme";
 
 
 export const PageContainer = styled.div`
-  display: none; /* Hide the content initially */
+  display: none;
   flex-direction: row;
   padding: 5px;
   margin-right: 5px;
@@ -17,7 +17,7 @@ export const PageContainer = styled.div`
     animate &&
     css`
       animation: ${fadeIn} 1s ease;
-      display: flex; /* Show the content when the animation starts */
+      display: flex;
     `}
 `;
 
@@ -44,12 +44,12 @@ border: 1px solid rgba(255, 255, 255, 0.22);
 `;
 
 export const ForecastContainer = styled.div`
-padding-bottom: 10px;
+margin-bottom:20px;
 `
 
 export const Icon = styled.img `
-width: 80px;
-height: 80px;
+width: 100px;
+height: 100px;
 `;
 
 export const Copy = styled.div`
@@ -60,6 +60,7 @@ padding: 10px;
 `;
 
 export const Highlight = styled.div`
+
 font-size: 22px;
 `
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { themeColors, themeFonts } from "../../common/theme";
-import backgroundPattern from "../../Assets/icon.png";
+import backgroundPattern from "../../Assets/background.png";
 
 export const PageContainer = styled.div`
   background-image: url(${backgroundPattern});
@@ -9,7 +9,6 @@ export const PageContainer = styled.div`
   width: 100%;
   height: 100vh;
   width: 100vw;
-  //Doesn't move content on webpage when there's no scroll bar
 
   display: grid;
   grid-template-columns:

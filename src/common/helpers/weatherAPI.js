@@ -1,5 +1,4 @@
 // weatherAPI.js
-
 const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 const currentWeatherApiUrl = "https://api.weatherapi.com/v1/current.json";
 const forecastApiUrl = "https://api.weatherapi.com/v1/forecast.json";
