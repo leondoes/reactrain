@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import SearchForm from "../SearchForm";
 import WeatherDisplay from "../WeatherDisplay";
-import { Title } from "./styled";
+import { Title, TopContainer } from "./styled";
 import PageLayout from "../../layout/pageLayout";
-import { fetchCurrentWeather, fetchWeatherForecast } from "../../common/helpers/weatherAPI"; // Update the import path
+import { fetchCurrentWeather, fetchWeatherForecast } from "../../common/helpers/weatherAPI";
 
 const ReactRain = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -23,17 +23,15 @@ const ReactRain = () => {
   };
 
   return (
-    <PageLayout>
+    <PageLayout><TopContainer>
       <Title>ReactRain</Title>
-      <div>
-        <SearchForm onSearch={handleSearch} />
+        <SearchForm onSearch={handleSearch} /></TopContainer>
         {weatherData && forecastData && (
           <WeatherDisplay
             weatherData={weatherData}
             forecastData={forecastData}
           />
         )}
-      </div>
     </PageLayout>
   );
 };

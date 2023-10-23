@@ -31,7 +31,7 @@ const WeatherDisplay = ({ weatherData, forecastData }) => {
   return (
     <PageContainer animate={animate}>
       <InsideContainer>
-        <Title>Current Weather In {weatherData.location.name}</Title>
+        <Title>Weather in {weatherData.location.name}</Title>
         <Icon
           src={`http:${weatherData.current.condition.icon}`}
           alt="Weather Icon"
