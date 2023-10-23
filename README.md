@@ -1,4 +1,4 @@
-React Rain.
+ReactRain.
 
 A weather app built in React.js
 
