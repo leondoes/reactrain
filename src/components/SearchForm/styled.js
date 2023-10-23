@@ -2,36 +2,37 @@ import styled from "styled-components";
 import { themeFonts } from "../../common/theme";
 
 export const TextInput = styled.input`
-  padding: 4px;
   font-size: 16px;
-  border-width: 0px;
-  border-color: #f4f7f5;
-  background-color: #515151;
   color: #f4f7f5;
-  border-style: solid;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   font-family: ${themeFonts.brandFont};
   :focus {
     outline: none;
   }
 `;
 
-export const SearchButton = styled.div `
-width: 20px;
-background-color: #515151;
-padding-top: 2px;
-padding-right: 1px;
-padding-left: 1px;
-border-width: 2px;
-border-style: solid;
+export const SearchButton = styled.div`
+  width: 20px;
+  padding-top: 2px;
+  padding-right: 1px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border-color: #515151;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
 
-    cursor:pointer;
+  cursor: pointer;
 `;
 
 export const SearchContainer = styled.div`
-display: flex;
+  display: flex;
 `;
